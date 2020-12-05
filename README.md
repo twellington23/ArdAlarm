@@ -4,11 +4,11 @@
 ## Uploading Arduino Code
 In order to upload the ArdAlarm code to the board from the Arduino IDE, follow these steps:
   - Attach all necessary modules to the board using the defined pins as shown in the code. The pin definitions refer to:
-    - rx: rx pin on HC-05
-    - tx: tx pin on HC-05
-    - buzzer: 
-    - sensorTrig: Trig pin on ultrasonic sensor
-    - sensorEcho: Echo pin on ultrasonic sensor
+    - rx: Rx pin on HC-05 to 13 on the Arduino
+    - tx: Tx pin on HC-05 to 12
+    - buzzer: Positive pin on buzzer to 48
+    - sensorTrig: Trig pin on ultrasonic sensor 9
+    - sensorEcho: Echo pin on ultrasonic sensor 10
   - Connect Arduino to computer running the Arduino IDE using the board's USB port
   - Ensure the correct board model and serial port is selected in the Arduino IDE
   - Click the **Upload** button to compile and deploy the code to the board
