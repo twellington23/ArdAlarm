@@ -12,6 +12,8 @@ In order to upload the ArdAlarm code to the board from the Arduino IDE, follow t
   - Connect Arduino to computer running the Arduino IDE using the board's USB port
   - Ensure the correct board model and serial port is selected in the Arduino IDE
   - Click the **Upload** button to compile and deploy the code to the board
+  
+_Note: Be sure to add all relevant libraries to your Arduino IDE beforehand_
 
 ## Running Android Application
 To run the Android application from Android Studio, follow these steps:
